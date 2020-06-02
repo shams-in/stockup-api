@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const db = require("./sequelize");
 const app = express();
 
-const port = 8082;
+const port = 8083;
 
 // configure body parse
 app.use(bodyParser.json());
